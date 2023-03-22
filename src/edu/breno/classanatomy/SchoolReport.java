@@ -1,3 +1,5 @@
+package edu.breno.classanatomy;
+
 public class SchoolReport {
 
     public static void main(String[] args) {
