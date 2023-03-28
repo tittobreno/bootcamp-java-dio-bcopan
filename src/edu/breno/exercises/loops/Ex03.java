@@ -11,7 +11,7 @@ public class Ex03 {
         int sum = 0;
         int[] numbers = new int[5];
         int count = 0;
-        int biggerNumber = 0;
+        int higherNumber = 0;
         do {
             System.out.println("Digite um numero: ");
             numbers[count] = scan.nextInt();
@@ -21,13 +21,13 @@ public class Ex03 {
         scan.close();
 
         for (int i = 0; i < numbers.length; i++) {
-            if (numbers[i] > biggerNumber) {
-                biggerNumber = numbers[i];
+            if (numbers[i] > higherNumber) {
+                higherNumber = numbers[i];
             }
             sum += numbers[i];
         }
         System.out.println(Arrays.toString(numbers));
-        System.out.println("O maior número é: " + biggerNumber);
+        System.out.println("O maior número é: " + higherNumber);
         System.out.println("A média é: " + sum / numbers.length);
     }
 
