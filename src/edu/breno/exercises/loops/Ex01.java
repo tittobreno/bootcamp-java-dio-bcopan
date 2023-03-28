@@ -24,6 +24,8 @@ public class Ex01 {
             System.out.println("Digite sua idade: ");
             age = scan.nextInt();
             scan.nextLine();
+
+            System.out.println("Olá " + name + ", você tem " + age + " anos!");
         }
         scan.close();
 
