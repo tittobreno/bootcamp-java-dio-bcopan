@@ -1,4 +1,4 @@
-package edu.breno.exercises.loops;
+package edu.exercises.loops;
 
 import java.util.Scanner;
 
